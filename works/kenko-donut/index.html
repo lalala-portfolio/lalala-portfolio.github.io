@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenko Donut</title>
+    <meta name="description" content="国産・無添加の材料を使った油で揚げない焼ドーナツのお店です。">
+    <!-- リセットcss -->
+    <link rel="stylesheet" href="https://unpkg.com/destyle.css@4.0.0/destyle.css">
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- 自作css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b42df56e9f.js" crossorigin="anonymous"></script>
+    <!-- Adobe Font -->
+    <script>
+        (function (d) {
+            var config = {
+                    kitId: 'tln4ijz',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    
+    <!-- favicon -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+
+    <!-- slick -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+
+    <!-- 自作JS -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="flex">
+            <h1><a href="index.html"><img src="images/logo_row.png" alt="Kenko Donut"></a></h1>
+            <nav class="gnav header__nav" id="js-nav">
+                <ul class="gnav_list nav-lists flex">
+                    <li class="gnav_item"><a href="#concept">こだわり</a></li>
+                    <li class="gnav_item"><a href="#menu">メニュー</a></li>
+                    <li class="gnav_item"><a href="#news">おしらせ</a></li>
+                    <li class="gnav_item"><a href="#shop">ショップ</a></li>
+                    <li class="gnav_item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="gnav_item"><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                </ul>
+            </nav>
+            <button class="header__hamburger hamburger" id="js-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+    </div><!-- /.wrapper -->
+    <div id="hero" class="wrapper">
+        <div class="logo">
+            <img src="images/logo.svg" alt="Kenko Donut">
+        </div>
+        <ul class="hero_slider">
+            <li class="slider-item slider-item01"></li>
+            <li class="slider-item slider-item02"></li>
+            <li class="slider-item slider-item03"></li>
+        </ul>
+    </div><!-- /#hero -->
+    <section id="concept">
+        <div class="scrollEv">
+            <div class="wrapper">
+                <h2 class="sec_title">
+                    こだわりのドーナツ
+                </h2>
+            </div>
+            <div class="con_container">
+                <div class="con_img">
+                    <img src="images/forest.jpg" alt="森林の写真">
+                </div>
+                <div class="con_copy flex">
+                    <h3>おいしさ×やさしさ＝</h3>
+                    <img src="images/logo_text_white.png" alt="Kenko Donut">
+                </div>
+                <div class="con_text">
+                    <p>体にやさしいものはおいしくない。<br>
+                        おいしいものは体にやさしくない。</p>
+                    <p>そんな印象、ありますよね。<br>
+                        ドーナツは特に、見た目は毒々しいし、<br>砂糖を沢山使って油で揚げて…<br>
+                        健康とは程遠いイメージの食べものだと思います。</p>
+                    <p>Kenko Donutでは、みなさまに安心しておいしいドーナツを<br>召し上がっていただけるよう、全ての材料にこだわって、<br>一つ一つ手作りしています。</p>
+                </div><!-- /.con_text -->
+            </div><!-- /.con_container -->
+            <div class="wrapper">
+                <ul class="point_container flex">
+                    <li class="point"><img src="images/point01.png" alt="国産"></li>
+                    <li class="point"><img src="images/point02.png" alt="無添加"></li>
+                    <li class="point point3"><img src="images/point03.png" alt="油で揚げない"></li>
+                </ul>
+                <a href="#"><span class="link_btn">more...</span></a>
+            </div>
+        </div>
+    </section><!-- /#concept -->
+
+    <ul id="scroll" class="inst_slider">
+        <li><img src="images/slider01.jpg" alt="店内写真"></li>
+        <li><img src="images/slider02.jpg" alt="観葉植物"></li>
+        <li><img src="images/slider03.jpg" alt="店内写真"></li>
+        <li><img src="images/slider04.jpg" alt="カフェラテ"></li>
+        <li><img src="images/slider05.jpg" alt="うさぎとくまのドーナツ"></li>
+        <li><img src="images/slider06.jpg" alt="クッキー"></li>
+    </ul>
+    <!--/.inst_slider-->
+
+    <section id="menu">
+        <div class="wrapper scrollEv">
+            <h2 class="sec_title">
+                メニュー
+            </h2>
+            <div class="grid menu_container">
+                <div class="menu_list">
+                    <img src="images/menu01.png" alt="">
+                    <h3><span class="under">定番</span></h3>
+                    <p>シンプルな素材を活かしたドーナツ<br>
+                        カカオや抹茶などのフレーバーも人気です</p>
+                </div>
+                <div class="menu_list">
+                    <img src="images/menu02.png" alt="">
+                    <h3><span class="under">季節商品</span></h3>
+                    <p>旬の素材を使ったドーナツ<br>
+                        期間限定のため、お見逃しなく！</p>
+                </div>
+                <div class="menu_list">
+                    <img src="images/menu03.png" alt="">
+                    <h3><span class="under">キャラクター</span></h3>
+                    <p>当店の人気キャラクター「なつくまくん」など<br>
+                        お子様にも大人気です♪</p>
+                </div>
+            </div><!-- /.flex .menu_container -->
+            <a href="#"><span class="link_btn">more...</span></a>
+        </div><!-- /.wrapper -->
+    </section><!-- /#menu -->
+
+    <section id="news">
+        <div class="wrapper scrollEv">
+            <h2 class="sec_title">
+                おしらせ
+            </h2>
+            <div class="grid news_container">
+                <a href="#">
+                    <div class="news_list">
+                        <img src="images/news02.png" alt="お店からのおしらせ">
+                        <dl>
+                            <dt><time datetime="2023-10-04">2023.10.04</time></dt>
+                            <dd class="indent">「八丁堀店」が12月15日(金)にオープン！</dd>
+                        </dl>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="news_list">
+                        <img src="images/news01.png" alt="瀬戸内レモンドーナツ">
+                        <dl>
+                            <dt><time datetime="2023-09-10">2023.09.10</time></dt>
+                            <dd>新商品「瀬戸内レモン」フレーバー</dd>
+                            <dd>9月23日(土)より販売開始！</dd>
+                        </dl>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="news_list">
+                        <img src="images/recruit.png" alt="スタッフ募集中">
+                        <dl>
+                            <dt><time datetime="2023-07-23">2023.7.23</time></dt>
+                            <dd class="indent">「上八丁堀本店」スタッフ募集中！</dd>
+                        </dl>
+                    </div>
+                </a>
+            </div><!-- /.news_container .flex -->
+            <a href="#"><span class="link_btn">more...</span></a>
+        </div>
+    </section><!-- /#news -->
+
+    <section id="shop">
+        <div class="scrollEv">
+            <h2 class="sec_title">
+                ショップ
+            </h2>
+            <div class="shop_container">
+                <div class="shop_img">
+                    <ul class="shop_slider">
+                        <li class="shop_slider-item shop_slider-item01"></li>
+                        <li class="shop_slider-item shop_slider-item02"></li>
+                        <li class="shop_slider-item shop_slider-item03"></li>
+                    </ul>
+                </div>
+                <div class="shop_text">
+                    <img src="images/logo_row.png" alt="Kenko Donut">
+                    <h3>上八丁堀本店</h3>
+                    <address>
+                        <p>〒730-0012　広島市中区上八丁堀8-20 井上ビル505</p>
+                        <dl>
+                            <dt>Tel</dt>
+                            <dd>082-836-5200</dd>
+                        </dl>
+                    </address>
+                    <dl>
+                        <dt>Open</dt>
+                        <dd>10:00-19:00</dd>
+                    </dl>
+                    <dl>
+                        <dt>Close</dt>
+                        <dd>水曜日定休日・不定休</dd>
+                    </dl>
+                    <p>※その他臨時休業となる場合がございます。<br>
+                        ※駐車場がございません。近隣のパーキングにご駐車ください。<br>
+                        ※完全禁煙</p>
+                    <img src="images/map.png" alt="店舗地図">
+                    <p><a href="https://maps.app.goo.gl/AYf6LUu3g8W7uzQD6" target="_blank">Google Map</a></p>
+                </div><!-- /.shop_text -->
+            </div><!-- /.shop_container -->
+        </div>
+    </section><!-- /#shop -->
+
+    <footer>
+        <p id="page-top"><a href="#">Page Top</a></p>
+        <a href="index.html"><img src="images/logo_row.png" alt="Kenko Donut"></a>
+        <p><small>&copy;2023 Kenko Donut</small></p>
+    </footer>
+</body>
+
+</html>
